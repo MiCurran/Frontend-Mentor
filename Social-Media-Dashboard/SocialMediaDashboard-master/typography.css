@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --cardBorder-fb: hsl(208, 92%, 53%); 
+    --cardBorder-twitter: hsl(203, 89%, 53%); 
+    --cardBorder-youtube: hsl(348, 97%, 39%); 
+    --background-color: hsl(0, 0%, 100%);
+    --text-color: hsl(230, 17%, 14%);
+    --card-bg: hsl(227, 47%, 96%);
+    --text-muted: hsl(228, 12%, 44%);
+--overview-text:  hsl(228, 12%, 44%);
+}
+
+[data-theme="dark"] {
+    --cardBorder-fb: hsl(208, 92%, 53%); 
+    --cardBorder-twitter: hsl(203, 89%, 53%); 
+    --cardBorder-youtube: hsl(348, 97%, 39%); 
+    --background-color: hsl(230, 17%, 14%);
+    --text-color: hsl(0, 0%, 100%);
+    --card-bg: hsl(228, 28%, 20%);
+    --text-muted: hsl(228, 34%, 66%);
+    --overview-text: hsl(0, 0%, 100%);
+}
+
+hr {
+   
+    visibility: hidden;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.text-muted {
+    color: var(--text-muted);
+
+}
+
+.overview-text {
+    color: var(--overview-text);
+}
+.text{
+    color: var(--text-color)
+}
+
+.header-row h5 {
+    font-size: 14px;
+}
+
+.card-subhead {
+    letter-spacing: .4em;
+}
+
+.count {
+    font-weight: 700;
+    font-size: 3.5em;
+    margin: 0%;
+}
+
+.count-sm {
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.page-head h1 {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.page-head h5 {
+    font-size: 1em;
+}
+
+.trend-up , .overview-trend-up{
+    font-weight: 900;
+    font-size: .8em;
+    }
+    
+    .trend-down , .overview-trend-down{
+        font-weight: 900;
+        font-size: .8em;
+    }
+    @media only screen and (max-width: 1439px) {
+        
+        .page-head h1 {
+            font-size: 1.6em;
+            
+        }
+        hr {
+            border: 1px solid 228, 12%, 44%;
+            margin: 0% 0%;
+            visibility: visible;
+        }
+
+    
+      }

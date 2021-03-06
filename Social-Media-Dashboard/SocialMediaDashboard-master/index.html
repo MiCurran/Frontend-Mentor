@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./typography.css">
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <nav>  
+    <div class="page-head">
+      <h1 class="text">Social Media Dashboard</h1>
+    <h5 class="text-muted">Total Followers: 23,004</h5> 
+    </div>
+    <hr>
+    <div class="toggle-switch">
+      <h4 class="text-muted">Dark Mode </h4>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </nav>
+ 
+
+  
+ <div class="card-row">
+  <div class="card" id="fb">
+
+    <div class= "username-row">
+      <img src="./images/icon-facebook.svg">
+      <h5 class="card-head text-muted">@nathanf</h5>
+    </div>
+    <h2 class="count text">1987</h2>
+    <p class="card-subhead text-muted">Followers</p>
+    <div class="trend-row">
+      <img src="./images/icon-up.svg">
+      <p class="trend-up">12 Today</p>
+
+    </div>
+  </div>
+
+  <div class="card" id="twitter">
+    <div class="username-row">
+      <img src="./images/icon-twitter.svg">
+      <h5 class="card-head text-muted">@nathanf</h5>
+    </div>
+  
+  <h2 class="count text">1044</h2>
+  <p class="card-subhead text-muted">Followers</p>
+  <div class="trend-row">
+    <img src="./images/icon-up.svg">
+    <p class="trend-up">99 Today</p>
+
+  </div>
+</div>
+
+  <div class="card" id="insta">
+    <div class="username-row">
+      <img src="./images/icon-instagram.svg">
+      <h5 class="card-head text-muted">@realnathanf</h5>
+    </div>
+    
+  <h2 class="count text">11k</h2>
+  <p class="card-subhead text-muted">Followers</p>
+  <div class="trend-row">
+    <img src="./images/icon-up.svg">
+    <p class="trend-up">1099 Today</p>
+
+  </div>
+  </div>
+  
+
+  <div class="card" id="youtube">
+    <div class="username-row">
+      <img src="./images/icon-youtube.svg">
+      <h5 class="card-head text-muted">Nathan F.</h5>
+    </div>
+  <h2 class="count text">8239</h2>
+  <p class="card-subhead text-muted">Subscribers</p>
+  <div class="trend-row">
+    <img src="./images/icon-down.svg">
+    <p class="trend-down">144 Today</p>
+  </div>
+  
+  </div>
+</div>
+
+
+  <div class="row">
+  <h2 class="overview-text">Overview - Today</h2>
+</div>
+<div class="overview-card-row">
+<div class="overview-card">
+  <div class="header-row"><h5 class="text-muted"> Page Views </h5><img src="./images/icon-facebook.svg"></div>
+  <div class="stats-row">
+    <p class="count-sm text">87</p>
+    <div class="trend-row">
+      <img src="./images/icon-up.svg">
+      <p class="overview-trend-up">3%</p>
+    </div>
+  </div>
+
+</div>
+
+  <div class=" overview-card">
+    <div class="header-row"><h5 class="text-muted">Likes </h5><img src="./images/icon-facebook.svg"></div>
+    <div class="stats-row">
+      <p class="count-sm text">52</p>
+      <div class="trend-row">
+        <img src="./images/icon-down.svg">
+        <p class="overview-trend-down">2%</p>
+
+      </div>
+    </div>
+  
+  </div>
+
+  <div class="overview-card">
+    <div class="header-row"><h5 class="text-muted">Likes </h5><img src="./images/icon-instagram.svg"></div>
+    <div class="stats-row">
+      <p class="count-sm text">5462</p>
+      <div class="trend-row">
+        <img src="./images/icon-up.svg">
+        <p class="overview-trend-up">2257%</p>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="overview-card">
+    <div class="header-row"><h5 class="text-muted">Profile Views </h5><img src="./images/icon-instagram.svg"></div>
+    <div class="stats-row">
+      <p class="count-sm text">52k</p>
+      <div class="trend-row">
+        <img src="./images/icon-up.svg">
+        <p class="overview-trend-up">1375%</p>
+
+      </div>
+    </div>
+  
+  </div>
+</div>
+  <div class="card-row">
+  <div class="overview-card">
+    <div class="header-row"><h5 class="text-muted">Retweets </h5><img src="./images/icon-twitter.svg"></div>
+    <div class="stats-row">
+      <p class="count-sm text">117</p>
+      <div class="trend-row">
+        <img src="./images/icon-up.svg">
+        <p class="overview-trend-up">303%</p>
+
+      </div>
+    </div>
+  
+  </div>
+
+  <div class="overview-card">
+    <div class="header-row"><h5 class="text-muted"> Likes</h5><img src="./images/icon-twitter.svg"></div>
+    <div class="stats-row">
+      <p class="count-sm text">507</p>
+      <div class="trend-row">
+        <img src="./images/icon-up.svg">
+        <p class="overview-trend-up">553%</p>
+
+      </div>
+    </div>
+ 
+  </div>
+
+  <div class="overview-card">
+    <div class="header-row"><h5 class="text-muted"> Likes</h5><img src="./images/icon-youtube.svg"></div>
+    <div class="stats-row">
+      <p class="count-sm text">107</p>
+      <div class="trend-row">
+        <img src="./images/icon-down.svg">
+        <p class="overview-trend-down">19%</p>
+
+      </div>
+    </div>
+  
+  </div>
+
+  <div class="overview-card">
+    <div class="header-row"><h5 class="text-muted"> Total Views</h5><img src="./images/icon-youtube.svg"></div>
+    <div class="stats-row">
+  <p class="count-sm text">1407</p>
+  <div class="trend-row">
+    <img src="./images/icon-down.svg">
+    <p class="overview-trend-down">12%</p>
+
+  </div>
+  </div>
+  </div>
+</div>
+
+  <script src="./main.js"></script>
+</body>
+</html>

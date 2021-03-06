@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.navbar {
+    background-color: hsl(0, 0%, 100%) !important;
+    z-index: 1;
+}
+
+#landing, #third {
+    background-color: hsl(0, 0%, 98%);
+}
+
+#second {
+    background-color:hsl(220, 16%, 96%);
+}
+
+.footer {
+    background-color:hsl(233, 26%, 24%);
+}
+
+button {
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%) , hsl(192, 70%, 51%)) !important;
+    border: none !important;
+  }
+  
+  
+.copy-text {
+    font-size: 18px ;
+    font-weight: 300 !important;
+}
+.intro-text {
+    padding-right: 7rem;
+}

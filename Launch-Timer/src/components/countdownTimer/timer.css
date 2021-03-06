@@ -1,0 +1,32 @@
+@media only screen and (min-width: 1339px) {
+ 
+.timer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0% 25%;
+}
+.timecard{
+    background-color: hsl(236, 21%, 26%);
+    padding: 25px; 
+    margin-bottom: 3%;
+    color: hsl(345, 95%, 68%);
+    width: 100px;
+}
+.timecard h2{
+    margin: 0%;
+    font-size: 3.3em;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;
+}
+
+.timer p{
+    color: hsl(237, 18%, 59%);
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+}
+}

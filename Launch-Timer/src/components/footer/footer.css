@@ -1,0 +1,18 @@
+
+.footer{
+    background-image:url(./assets/pattern-hills.svg);
+    padding-bottom: 5%;
+  }
+.icon-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+  .footer .link{
+      margin: 0% 2.5%;
+      margin-top: 2.5%;
+  }
+
+  .footer .link:hover{
+      color: hsl(345, 95%, 68%);
+  }
